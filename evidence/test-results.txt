@@ -1,0 +1,24 @@
+test_I1_nonowner_blocked_and_unchanged (test_domain.TestInvariants.test_I1_nonowner_blocked_and_unchanged) ... ok
+test_I1_requires_explicit_confirmation (test_domain.TestInvariants.test_I1_requires_explicit_confirmation) ... ok
+test_I2_missing_provenance_identifier_rejected (test_domain.TestInvariants.test_I2_missing_provenance_identifier_rejected) ... ok
+test_I2_provenance_required (test_domain.TestInvariants.test_I2_provenance_required) ... ok
+test_I2_untrusted_kind_even_with_bad_verified_flag_is_blocked (test_domain.TestInvariants.test_I2_untrusted_kind_even_with_bad_verified_flag_is_blocked) ... ok
+test_I2_unverified_blocked (test_domain.TestInvariants.test_I2_unverified_blocked) ... ok
+test_I3_replay_is_idempotent (test_domain.TestInvariants.test_I3_replay_is_idempotent) ... ok
+test_I3_stale_candidate_rejected (test_domain.TestInvariants.test_I3_stale_candidate_rejected) ... ok
+test_I3_versioned_history_and_single_current_deadline (test_domain.TestInvariants.test_I3_versioned_history_and_single_current_deadline) ... ok
+test_I4_rejected_candidate_no_mutation (test_domain.TestInvariants.test_I4_rejected_candidate_no_mutation) ... ok
+test_I4_rejected_cannot_confirm_later (test_domain.TestInvariants.test_I4_rejected_cannot_confirm_later) ... ok
+test_documented_limitation_public_store_mutation (test_domain.TestInvariants.test_documented_limitation_public_store_mutation)
+Expected failure: raw in-memory dict is not an access-control boundary. ... expected failure
+test_legal_transition_trail (test_domain.TestInvariants.test_legal_transition_trail) ... ok
+test_missing_assignment_reference_rejected (test_domain.TestInvariants.test_missing_assignment_reference_rejected) ... ok
+test_naive_datetime_rejected (test_domain.TestInvariants.test_naive_datetime_rejected) ... ok
+test_no_raw_document_content_stored (test_domain.TestInvariants.test_no_raw_document_content_stored) ... ok
+test_same_deadline_marked_invalid (test_domain.TestInvariants.test_same_deadline_marked_invalid) ... ok
+test_time_zone_offset_mismatch_rejected (test_domain.TestInvariants.test_time_zone_offset_mismatch_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.002s
+
+OK (expected failures=1)
